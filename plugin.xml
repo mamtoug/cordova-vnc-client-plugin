@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova.vnc.client.plugin" version="1.0.0">
-   <name>cordova-vnc-client-plugin</name>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-vnc-client-plugin" version="1.0.0">
+   <name>cordovaVncClientPlugin</name>
    <js-module name="cordovaVncClientPlugin" src="www/cordova-vnc-client-plugin.js">
       <clobbers target="cordovaVncClientPlugin" />
    </js-module>
