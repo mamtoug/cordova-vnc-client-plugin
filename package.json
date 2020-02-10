@@ -1,0 +1,25 @@
+{
+  "name": "cordova-vnc-client-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-vnc-client-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamtoug/cordova-vnc-client-plugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamtoug/cordova-vnc-client-plugin/issues"
+  },
+  "homepage": "https://github.com/mamtoug/cordova-vnc-client-plugin#readme"
+}
