@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-vnc-client-plugin" version="1.0.0">
+
    <name>cordovaVncClientPlugin</name>
+   
    <js-module name="cordovaVncClientPlugin" src="www/cordova-vnc-client-plugin.js">
       <clobbers target="cordovaVncClientPlugin" />
    </js-module>
+   
+   
    <platform name="android">
+   
       <config-file parent="/*" target="res/xml/config.xml">
-         <feature name="cordova-vnc-client-plugin">
+         <feature name="cordovaVncClientPlugin">
             <param name="android-package" value="cordova.vnc.client.plugin.cordovaVncClientPlugin" />
          </feature>
       </config-file>
+	  
       <config-file parent="/*" target="AndroidManifest.xml" />
+	  
       <source-file src="src/android/cordova-vnc-client-plugin.java" target-dir="src/cordova/vnc/client/plugin/cordova-vnc-client-plugin" />
    </platform>
+   
+   
 </plugin>
