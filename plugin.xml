@@ -3,7 +3,7 @@
 
    <name>cordovaVncClientPlugin</name>
    
-   <js-module name="cordovaVncClientPlugin" src="www/cordova-vnc-client-plugin.js">
+   <js-module name="cordovaVncClientPlugin" src="www/cordovaVncClientPlugin.js">
       <clobbers target="cordovaVncClientPlugin" />
    </js-module>
    
@@ -18,7 +18,8 @@
 	  
       <config-file parent="/*" target="AndroidManifest.xml" />
 	  
-      <source-file src="src/android/cordova-vnc-client-plugin.java" target-dir="src/cordova/vnc/client/plugin/cordova-vnc-client-plugin" />
+      <source-file src="src/android/cordovaVncClientPlugin.java" 
+	  target-dir="src/cordova/vnc/client/plugin/cordovaVncClientPlugin" />
    </platform>
    
    
